@@ -6,16 +6,16 @@ A simple weather tracker web app that displays key weather metrics for different
 ## 📸 Screenshots
 
 ### 🌤️ Home Page
-![Home Page](screenshots/screenshot1.png)
+![Home Page](screenshots/screenshot1.jpg)
 
 ### 🌡️ Temperature Page - Cold temp with °F
-![Temperature Page](screenshots/screenshot2.png)
+![Temperature Page](screenshots/screenshot2.jpg)
 
 ### 🌡️ Temperature Page - Hot temp with °C
-![Humidity Page](screenshots/screenshot3.png)
+![Humidity Page](screenshots/screenshot3.jpg)
 
 ### 💧 Humidity Page
-![Humidity Page](screenshots/screenshot3.png)
+![Humidity Page](screenshots/screenshot3.jpg)
 
 - Search for a city to display its weather information
 - Displays:
