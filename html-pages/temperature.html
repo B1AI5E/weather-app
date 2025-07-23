@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script defer src="../script.js"></script>
+</head>
+<body class="temperature-page">
+    <header>
+        <h1>Temperature</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="uv-index.html">UV Index</a></li>
+                <li><a href="wind-speed.html">Wind Speed</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2> <span id="cityName"></span></h2>
+        <img id="tempIcon" src="../assets/thermometer.png" alt="Temperature Icon" width="200">
+        <p>Current Temperature: <span id="temperature"></span><span id="tempUnit">°C</span></p>
+        <button id="toggleTemp">Switch to °F</button>
+    </main>
+</body>
+</html>

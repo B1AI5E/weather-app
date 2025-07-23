@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UV Index</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script defer src="../script.js"></script> 
+</head>
+<body class="uv-index-page">
+    <header>
+        <h1>UV Index</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="uv-index.html">UV Index</a></li>
+                <li><a href="wind-speed.html">Wind Speed</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2><span id="cityName"></span></h2>
+        <img id="uvIcon" src="../assets/sun.png" alt="Sun Icon" width="200">
+        <p>Current UV Index: <span id="uvIndex"></span></p>
+    </main>
+
+</body>
+</html>

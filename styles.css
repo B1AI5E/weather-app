@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 60px; 
+}
+
+body.home-page { background-color: #ffffff; }
+body.temperature-page { background-color: #e67e22; }
+body.humidity-page { background-color: #277cae; }
+body.uv-index-page { background-color: #ffef44; }
+body.wind-speed-page { background-color: #9fb1b3; }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+.weather-icon {
+    font-size: 40px;
+    display: block;
+    margin: 10px auto;
+}
