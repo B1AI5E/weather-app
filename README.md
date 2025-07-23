@@ -15,7 +15,7 @@ A simple weather tracker web app that displays key weather metrics for different
 ![Humidity Page](screenshots/screenshot3.JPG)
 
 ### 💧 Humidity Page
-![Humidity Page](screenshots/screenshot3.JPG)
+![Humidity Page](screenshots/screenshot4.JPG)
 
 - Search for a city to display its weather information
 - Displays:
